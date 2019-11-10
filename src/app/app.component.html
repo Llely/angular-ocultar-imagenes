@@ -1,0 +1,13 @@
+<h1> {{title}} </h1>
+<button class ="gato" (click)="Animal1=!Animal1"> Gato</button>
+<section *ngIf="Animal1"> 
+  <img title ="Animal1" src="https://www.purina.es/gato/purina-one/sites/g/files/mcldtz1856/files/2018-06/Como_saber_si_mi_gato_esta_enfermo%20%282%29.jpg" />
+</section>  
+<button class ="perro"(click)="Animal2=!Animal2">Perro</button>
+<section *ngIf="Animal2"> 
+  <img title ="Animal2" src="https://estaticos.muyinteresante.es/media/cache/760x570_thumb/uploads/images/article/5c3871215bafe83b078adbe3/perro.jpg" />
+</section>  
+<button class="delfin" (click)="Animal3=!Animal3">Delfin</button>
+<section *ngIf="Animal3"> 
+  <img title ="Animal3" src="https://imagenes.milenio.com/o0-mbQVlUOCWsalKelxGyO2pKOc=/958x596/https://www.milenio.com/uploads/media/2019/08/29/el-delfin-tenia-nueve-dias.jpg" />
+</section>  
